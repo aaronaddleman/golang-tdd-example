@@ -29,4 +29,4 @@ clean:
 fmt:
 	$(GO) fmt ./...
 
-.PHONY: build fmt test clean
+.PHONY: fmt build test clean
