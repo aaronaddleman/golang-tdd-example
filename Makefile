@@ -26,4 +26,7 @@ test:
 clean:
 	rm -rf $(BUILD_DIR) $(TEST_DIR)
 
-.PHONY: build test clean
+fmt:
+	$(GO) fmt ./...
+
+.PHONY: build fmt test clean
